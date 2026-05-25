@@ -1,0 +1,64 @@
+name: dhis2_flutter_sdk
+description: A production-ready Flutter SDK for DHIS2 analytics, dashboards, and read-only visualization systems. Built with clean architecture principles.
+version: 1.0.0
+homepage: https://github.com/your-org/dhis2_flutter_sdk
+repository: https://github.com/your-org/dhis2_flutter_sdk
+issue_tracker: https://github.com/your-org/dhis2_flutter_sdk/issues
+documentation: https://your-org.github.io/dhis2_flutter_sdk
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP Client - Powerful HTTP client with interceptors
+  dio: ^5.4.0
+  
+  # Secure Storage - For storing auth tokens securely
+  flutter_secure_storage: ^9.0.0
+  
+  # Local Database - Fast, lightweight NoSQL database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Network Connectivity - Detect network state changes
+  connectivity_plus: ^5.0.2
+  
+  # Logging - Beautiful console logging
+  logger: ^2.0.2+1
+  
+  # Date/Time Utilities
+  intl: ^0.19.0
+  
+  # Equatable - Value equality for models
+  equatable: ^2.0.5
+  
+  # JSON Serialization
+  json_annotation: ^4.8.1
+  
+  # Collection utilities
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+  json_serializable: ^6.7.1
+  
+  # Linting
+  flutter_lints: ^3.0.1
+  
+  # Mocking for tests
+  mocktail: ^1.0.3
+
+flutter:
+  # This package does not include Flutter assets
+  # Assets should be provided by the consuming application
+
+# Hive type adapters will be generated in lib/core/caching/adapters/
